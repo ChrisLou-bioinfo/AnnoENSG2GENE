@@ -2,9 +2,10 @@ Package: annoE
 Title: Convert Genecode ID to Gene Symbol
 Version:1.0.1
 Authors@R: person("Chris", "Lou", email = "loujiacheng1986@foxmail.com", role = c("aut", "cre"))
-Description: Input Data with genecodeID,such as ENSGxxx, is required. If data comes from TCGA, datafrom="TCGA".
-             Thanks for your donation.
-             if you want to convert genecodeID to entrzGENEID for clusterprofiler(by Y),EntreZ=T.
+Description: Input Data with genecodeID,such as ENSGxxx, is required. Thanks for your donation.
+             AnnoENSG(EntrzID=F,data=yourdata)
+             Rowname of yourdata must be ensembl_id,such as ENSGxxxxx.
+             if you want to convert genecodeID to entrzGENEID for clusterprofiler(by Y),EntrzID=T.
 Depends: R (>= 3.5)
 License: Apache License 2.0.
 Encoding: UTF-8
