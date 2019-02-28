@@ -1,6 +1,6 @@
 AnnoENSG<-function(Entrez=T,data=vsd.expr,datafrom="TCGA"){ 
   vsd.expr<-data
-  if (Entrez==T){ 
+  if (Entrez==T){  
     if (datafrom=="TCGA"){
       vsd.expr$TCGA.ID<-rownames(vsd.expr)
       vsd.exprG <- merge(annoENSG.entrz,vsd.expr,by="TCGA.ID")
