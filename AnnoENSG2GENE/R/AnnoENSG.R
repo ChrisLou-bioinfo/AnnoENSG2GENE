@@ -1,4 +1,4 @@
-AnnoENSG_beta<-function(EntrzID=T,data=vsd.expr){ 
+AnnoENSG<-function(EntrzID=T,data=vsd.expr){ 
   vsd.expr<-data
   if (EntrzID==T){ 
     vsd.expr$ID<-stringr::str_sub(rownames(vsd.expr),end=15)
