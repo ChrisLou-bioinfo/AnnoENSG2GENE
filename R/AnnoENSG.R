@@ -1,4 +1,4 @@
-AnnoENSG<-function(EntrezID=F,col="rownmanes",data=vsd.expr){ 
+AnnoENSG<-function(EntrezID=F,col="rownames",data=vsd.expr){ 
   vsd.expr<-data
   if (EntrezID==T){
     anno<-annoENSG.entrz
