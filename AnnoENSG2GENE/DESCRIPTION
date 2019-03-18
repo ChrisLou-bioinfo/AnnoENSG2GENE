@@ -1,6 +1,6 @@
 Package: annoE
 Title: Convert Ensembl_id to Gene Symbol according to gencodeGTF
-Version:1.0.5
+Version:1.0.6
 Authors@R: person("Chris", "Lou", email = "loujiacheng1986@foxmail.com", role = c("aut", "cre"))
 Description: Input Data with genecodeID,such as ENSGxxx, is required. Thanks for your donation.
              AnnoENSG(EntrezID=F,col="rownmanes",data=vsd.expr)
