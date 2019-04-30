@@ -16,12 +16,12 @@ AnnoENSG<-function(EntrezID=F,col="rownames",data=vsd.expr,FilterLnc=F){
     vsd.exprG<-subset(vsd.exprG,
                       vsd.exprG$TYPE=="antisense_RNA" | 
                         vsd.exprG$TYPE=="lincRNA"| 
-                        vsd.exprG$TYPE=="Sense intronic"| 
-                        vsd.exprG$TYPE=="3prime overlapping ncRNA"| 
-                        vsd.exprG$TYPE=="Non coding"| 
-                        vsd.exprG$TYPE=="Retained intron"| 
-                        vsd.exprG$TYPE=="Sense overlapping"| 
-                        vsd.exprG$TYPE=="Macro lncRNA")
+                        vsd.exprG$TYPE=="sense_intronic"| 
+                        vsd.exprG$TYPE=="3prime_overlapping_ncRNA"| 
+                        vsd.exprG$TYPE=="non_coding"| 
+                        vsd.exprG$TYPE=="retained_intron"| 
+                        vsd.exprG$TYPE=="sense_overlapping"| 
+                        vsd.exprG$TYPE=="macro_lncRNA")
   }
   return(vsd.exprG)
 }
