@@ -14,7 +14,7 @@ AnnoENSG<-function(EntrezID=F,col="rownames",data=vsd.expr,FilterLnc=F){
   }
   if (FilterLnc==T){
     vsd.exprG<-subset(vsd.exprG,
-                        vsd.exprG$TYPE=="antisense_RNA" | 
+                        vsd.exprG$TYPE=="antisense" | 
                         vsd.exprG$TYPE=="lincRNA"| 
                         vsd.exprG$TYPE=="sense_intronic"| 
                         vsd.exprG$TYPE=="3prime_overlapping_ncRNA"| 
